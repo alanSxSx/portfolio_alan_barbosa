@@ -13,11 +13,9 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "DESTAQUE PROFISSIONAL",
+              subtitle: "Habilidades além do Curriculum",
+              description: `Nesta sessão, pretendo apresentar minhas habilidades pessoais e interpessoais com base em evidências concretas. Meu objetivo é fundamentar minhas competências em fatos e experiências comprovadas, oferecendo uma visão objetiva de como contribuí de maneira efetiva para o sucesso em contextos anteriores.`,
             }}
           />
           {/* <!-- Section Title End --> */}
