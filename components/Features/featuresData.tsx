@@ -12,7 +12,7 @@ function age(date: { getFullYear: () => number; getMonth: () => number; getDate:
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
+    icon: "/images/icon/balance.svg",
     title: "Ética & Responsabilidade",
     description:
       `Nas empresas em que atuo, destaco-me pelos critérios de pontualidade, respeito e educação. Ponto baseados em feedbacks recebido de funcionários das empresas.`,
@@ -33,24 +33,24 @@ const featuresData: Feature[] = [
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    icon: "/images/icon/psychology.svg",
+    title: "Inteligencia Emocional",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Recebo feedbacks de maneira positiva e estou aberto a ajustes quando necessário. Sou comprometido com a equipe e busco sempre melhorar. Tenho maturidade para resolver qualquer tipo de problema referente a minha pessoa e situação.",
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    icon: "/images/icon/group.svg",
+    title: "Trabalho em Equipe",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Procuro trabalhar em harmonia com colegas, estagiários e gerentes.  Atualmente, mantenho uma abordagem colaborativa ao interagir com meu líder e colegas de outros setores, buscando sempre promover um ambiente de trabalho cooperativo e eficiente.",
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    icon: "/images/icon/comunication.svg",
+    title: "Comunicação assertiva",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Ao interagir com colegas de trabalho, mantenho uma postura educada e atenciosa, buscando estabelecer um ambiente de colaboração positivo. Além disso, tenho o compromisso de contextualizar de forma clara e acessível qualquer problema discutido, simplificando questões técnicas para garantir o entendimento.",
   },
 ];
 
