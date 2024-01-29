@@ -3,6 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Svgs } from "../Common/Svgs";
+import SectionHeader from '../Common/SectionHeader';
 
 interface About {
   title: string;
@@ -33,7 +34,7 @@ export default function AboutSectionOne({ title, paragraph, arraySkills, image, 
 
 
   return (
-    <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+    <section className="mt-12.5">
       <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
         <div className="flex items-center gap-8 lg:gap-32.5 ">
           <motion.div
@@ -54,7 +55,7 @@ export default function AboutSectionOne({ title, paragraph, arraySkills, image, 
             viewport={{ once: true }}
             className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
           >
-            <div className=" p-8 relative flex items-center justify-center w-full h-full shadow-lg bg-gradient-to-t from-transparent to-sky-950/50 rounded-2xl">
+            <div className=" p-8 relative flex items-center justify-center w-full h-full rounded-2xl bg-gradient-to-t from-transparent to-cyan-400/[0.2] dark:bg-gradient-to-t from-transparent dark:to-sky-950/50 ">
               {Array.isArray(image) ? (
                 //@ts-ignore
                 <SliderComponent images={image} width={sizeImg.width} height={sizeImg.height} />
@@ -67,7 +68,7 @@ export default function AboutSectionOne({ title, paragraph, arraySkills, image, 
                   alt="about-image"
                   width={sizeImg.width}
                   height={sizeImg.height}
-                  className="max-w-full object-contain lg:mr-0 rounded-2xl"              
+                  className="max-w-full lg:mr-0 rounded-2xl"              
                  
                 />
               )}

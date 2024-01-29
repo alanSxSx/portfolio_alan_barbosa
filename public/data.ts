@@ -12,8 +12,8 @@ export const dataAbout = [
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "/fulig/fulig2.jpeg",
-        titles: ["Problema a se resolver", "Minha atuação", "Benefícios da implementação"],
+        image: "/images/fulig/fulig2.jpeg",
+        titles: ["Problema", "Atuação", "Benefícios"],
         texts: [
           "Empresa estava sem um site que pudesse conter a história e a gradeza da FULIG.",
           "Foi feito o desenvolvimento de um protótipo e apresentado para Diretoria, que logo elogiou muito a iniciativa.",
@@ -35,7 +35,7 @@ export const dataAbout = [
       aspectRatio: "5/3",
       moreDetails: {
         image: "/images/registro_almoco/reg2.jpeg",
-        titles: ["Problema a se resolver", "Minha atuação", "Benefícios da implementação"],
+        titles: ["Problema", "Atuação", "Benefícios"],
         texts: [
           "O registro de almoço éra feito em uma lista de papel totalmente de forma manual, gerando muito trabalho.",
           "Fiz toda a aplicação desde o front-end até o backend. A implementação do backend foi feita em Clound na Digital Ocean.",
@@ -56,8 +56,8 @@ export const dataAbout = [
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "/images/backend/backend2.png",
-        titles: ["Problema a se resolver", "Minha atuação", "Benefícios da implementação"],
+        image: "/images/fuligbackend/backend2.png",
+        titles: ["Problema", "Atuação", "Benefícios"],
         texts: [
           "Com o uso do papel, as informações não éram armazenadas de maneira eficiente.",
           "Desenvolvimento da parte backend com sucesso, sendo implementado as rotas e a conexão com Banco de Dados.",
