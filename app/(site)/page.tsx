@@ -27,9 +27,9 @@ export default function Home() {
       <Feature />
       <SectionHeader
         headerInfo={{
-          title: "DESTAQUE PROFISSIONAL",
-          subtitle: "Habilidades além do Curriculum",
-          description: `Nesta sessão, pretendo apresentar minhas habilidades pessoais e interpessoais com base em evidências concretas. Meu objetivo é fundamentar minhas competências em fatos e experiências comprovadas, oferecendo uma visão objetiva de como contribuí de maneira efetiva para o sucesso em contextos anteriores.`,
+          title: "PROJETOS EM DESTAQUE",
+          subtitle: "Aplicações Desenvolvidas",
+          description: `Apresento os projetos de desenvolvimento pessoal, onde pude demonstrar meus conhecimentos técnicos em várias tecnologias como: ReactJS, NextJS, Typescript, Javascript, NodeJs entre outras.`,
         }}
       />
       {dataAbout.map((item, index) => (

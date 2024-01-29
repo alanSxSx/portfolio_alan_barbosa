@@ -30,7 +30,7 @@ const Footer = () => {
             <div className="flex w-full px-4 items-center justify-center">
               <div className="py-7 flex flex-col items-center text-center">
                 <p className="text-3xl font-bold text-black dark:text-white">Alan Barbosa</p>
-                <p className="pt-2 pb-4 text-xl font-medium text-body-color">Desenvolvedor Full Stack</p>
+                <p className="pt-2 pb-4 text-xl font-medium text-body-color">Desenvolvedor Front End</p>
                 <div className="flex justify-center">
                   <a href="https://www.linkedin.com/in/alan-barbosa-4b6987277/" aria-label="social-link" className="mr-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#4a6cf7" viewBox="0 0 24 24">

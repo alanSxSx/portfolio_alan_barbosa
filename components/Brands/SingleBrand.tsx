@@ -2,12 +2,12 @@ import React, { useRef, useEffect } from "react";
 import Image from "next/image";
 import { Brand } from "@/types/brand";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const SingleBrand = ({ brand }: { brand: Brand }) => {
   const { image, href, name, imageLight, id } = brand;
 
   return (
-    <>
       <motion.a
         variants={{
           hidden: {
@@ -25,6 +25,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         transition={{ duration: 1, delay: id }}
         viewport={{ once: true }}
         href={href}
+        target="_blank"
         className="animate_top mx-w-full relative block h-10 w-[98px]"
       >
         <Image
@@ -40,7 +41,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           fill
         />
       </motion.a>
-    </>
+  
   );
 };
 
