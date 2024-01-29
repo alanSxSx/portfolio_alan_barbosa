@@ -7,11 +7,10 @@ import FeaturesTab from "@/components/FeaturesTab";
 import FunFact from "@/components/FunFact";
 import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
-import FAQ from "@/components/FAQ";
-import Pricing from "@/components/Pricing";
-import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import { dataAbout } from "@/public/data";
+import React from "react";
+import AboutSectionOne from "@/components/About/AboutSectionOne";
 
 export const metadata: Metadata = {
   title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
@@ -25,16 +24,17 @@ export default function Home() {
       <Hero />
       <Brands />
       <Feature />
-      <About />
+      {dataAbout.map((item, index) => (
+        <React.Fragment key={index}>
+          <AboutSectionOne key={index} {...item} />
+        </React.Fragment>
+      ))}
+      <About/>
       <FeaturesTab />
       <FunFact />
       <Integration />
       <CTA />
-      <FAQ />
       <Testimonial />
-      <Pricing />
-      <Contact />
-      <Blog />
     </main>
   );
 }

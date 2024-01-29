@@ -4,7 +4,7 @@ export const dataAbout = [
       paragraph:
         "Desenvolvimento de um novo site para empresa, FULIG - Fundição de Ligas LTDA ",
       arraySkills: ["React JS", "Next JS", "Netlify Forms", "Prime React", "CSS Modules"],
-      image: "./fulig/fulig1.jpeg",
+      image: "/images/fulig/fulig1.jpeg",
       link: "https://fulig.netlify.app/",
       sizeImg: {
         width: 668,
@@ -12,7 +12,7 @@ export const dataAbout = [
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "./fulig/fulig2.jpeg",
+        image: "/fulig/fulig2.jpeg",
         titles: ["Problema a se resolver", "Minha atuação", "Benefícios da implementação"],
         texts: [
           "Empresa estava sem um site que pudesse conter a história e a gradeza da FULIG.",
@@ -26,7 +26,7 @@ export const dataAbout = [
       title: "Registro de Almoço",
       paragraph: "Aplicação utilizada pra todos os funcionários realizarem o registro de almoço diário",
       arraySkills: ["ReactJS", "Axios","Prime React","Token JWT","Secure Local Storage","Clound Computing"],
-      image: "./registro_almoco/reg1.jpeg",
+      image: "/images/registro_almoco/reg1.jpeg",
       link: "https://registrodealmoco.netlify.app/",
       sizeImg: {
         width: 668,
@@ -34,7 +34,7 @@ export const dataAbout = [
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "./registro_almoco/reg2.jpeg",
+        image: "/images/registro_almoco/reg2.jpeg",
         titles: ["Problema a se resolver", "Minha atuação", "Benefícios da implementação"],
         texts: [
           "O registro de almoço éra feito em uma lista de papel totalmente de forma manual, gerando muito trabalho.",
@@ -45,10 +45,10 @@ export const dataAbout = [
     },
 
 		{
-      title: "Registro de Almoço Backend",
+      title: "API Backend",
       paragraph: "Parte de Backend do projeto de registro de almoço.",
       arraySkills: ["JavaScript", "NodeJS","Autenticação de rotas com JWT","Sequelize","Conexão com banco Mysql"],
-      image: "./backend/backend1.png",
+      image: "/images/fuligbackend/backend1.png",
       link: "https://github.com/alanSxSx/registro_de_almoco_backend",
       sizeImg: {
         width: 668,
@@ -56,7 +56,7 @@ export const dataAbout = [
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "../backend/backend2.png",
+        image: "/images/backend/backend2.png",
         titles: ["Problema a se resolver", "Minha atuação", "Benefícios da implementação"],
         texts: [
           "Com o uso do papel, as informações não éram armazenadas de maneira eficiente.",
@@ -70,7 +70,7 @@ export const dataAbout = [
       title: "Pomodoro App",
       paragraph: "Pomodoro é um método de gerenciamento de tempo. A técnica consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos.",
       arraySkills: ["ReactJS", "NextJS","TypeScript","CSS","JavaScript","HTML"],
-      image: "./pomodoro/pomodoro1.png",
+      image: "/images/pomodoro/pomodoro1.png",
       link: "https://github.com/alanSxSx/pomodoro-app",
       sizeImg: {
         width: 668,
@@ -78,7 +78,7 @@ export const dataAbout = [
       },
       aspectRatio: "2/1",
       moreDetails: {
-        image: "./pomodoro/pomodoro2.png",
+        image: "/images/pomodoro/pomodoro2.png",
         titles: ["Objetivo", "Aprendizado", "Desafios do Projeto"],
         texts: [
           "Desenvolver minhas habilidades em Typescript, aproveitando o gerenciador de projetos do nextJS. ",
@@ -92,7 +92,7 @@ export const dataAbout = [
       title: "To do List",
       paragraph: "To do List, também conhecida como Lista de Tarefas, oferece uma maneira eficiente de priorizar e acompanhar as tarefas pendentes.",
       arraySkills: ["ReactJS","CSS","JavaScript","HTML","CRUD em API","Axios","Redux"],
-      image: "./todoList/todo1.png",
+      image: "/images/todoList/todo1.png",
       link: "https://github.com/alanSxSx/to-do-list",
       sizeImg: {
         width: 668,
@@ -100,7 +100,7 @@ export const dataAbout = [
       },
       aspectRatio: "2/1",
       moreDetails: {
-        image: "./todoList/todo2.png",
+        image: "/images/todoList/todo2.png",
         titles: ["Objetivo", "Aprendizado", "Desafios do Projeto"],
         texts: [
           "Trabalhar os conceitos de CRUD em API, utilizando também o estado global REDUX.",
@@ -114,7 +114,7 @@ export const dataAbout = [
       title: "Projeto Costs",
       paragraph: "Costs foi um projeto desenvolvido em um tutorial com Matheus Battisti.",
       arraySkills: ["ReactJS","CSS Modules","JavaScript","HTML","CRUD em API"],
-      image: "./costs/Costs1.png",
+      image: "/images/costs/Costs1.png",
       link: "https://github.com/alanSxSx/costs-full",
       sizeImg: {
         width: 668,
@@ -122,7 +122,7 @@ export const dataAbout = [
       },
       aspectRatio: "2/1",
       moreDetails: {
-        image: "./costs/Costs2.png",
+        image: "/images/costs/Costs2.png",
         titles: ["Objetivo", "Aprendizado", "Desafios do Projeto"],
         texts: [
           "Criar um projeto React trabalhando com API demonstrando os conceitos de componentização, transferência de eventos via props.",
