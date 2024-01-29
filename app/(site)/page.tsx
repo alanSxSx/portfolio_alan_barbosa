@@ -2,11 +2,7 @@ import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
-import FeaturesTab from "@/components/FeaturesTab";
-import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
-import CTA from "@/components/CTA";
-import Testimonial from "@/components/Testimonial";
+
 import { dataAbout } from "@/public/data";
 import React from "react";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
@@ -14,8 +10,8 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import SectionHeader from "@/components/Common/SectionHeader";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
+  title: "Portfólio - Alan Barbosa",
+  description: "Projeto desenvolvido por Alan Barbosa",
   // other metadata
 };
 
