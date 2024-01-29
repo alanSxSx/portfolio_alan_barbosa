@@ -12,7 +12,7 @@ export default function TextHero() {
       }
 
     return (
-        <div className="animated fadeInUp mt-8 flex items-center justify-center">
+        <div className="animated fadeInUp mt-8 flex items-center justify-center bg-white dark:bg-black">
             <div className="mx-auto">
                 <div className="overflow-hidden rounded-lg shadow-xl dark:bg-primary dark:bg-opacity-10 md:flex">
                     <div className="p-8">
