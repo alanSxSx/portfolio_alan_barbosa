@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
-
 import { dataAbout } from "@/public/data";
 import React from "react";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
