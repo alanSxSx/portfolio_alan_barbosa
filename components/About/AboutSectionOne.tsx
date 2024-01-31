@@ -36,7 +36,7 @@ export default function AboutSectionOne({ title, paragraph, arraySkills, image, 
   return (
     <section className="mt-12.5">
       <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
-        <div className="flex items-center gap-8 lg:gap-32.5 ">
+        <div className="flex flex-col items-center gap-8 lg:gap-32.5 sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row">
           <motion.div
             variants={{
               hidden: {
@@ -53,7 +53,7 @@ export default function AboutSectionOne({ title, paragraph, arraySkills, image, 
             whileInView="visible"
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+            className="animate_left relative mx-auto aspect-[588/526.5] md:block md:w-1/2"
           >
             <div className=" p-8 relative flex items-center justify-center w-full h-full rounded-2xl bg-gradient-to-t from-transparent to-cyan-400/[0.2] dark:bg-gradient-to-t from-transparent dark:to-sky-950/50 ">
               {Array.isArray(image) ? (
