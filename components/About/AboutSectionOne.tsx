@@ -3,7 +3,6 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Svgs } from "../Common/Svgs";
-import SectionHeader from '../Common/SectionHeader';
 
 interface About {
   title: string;
@@ -93,7 +92,7 @@ export default function AboutSectionOne({ title, paragraph, arraySkills, image, 
             className="animate_right md:w-1/2"
           >
             <h2 className="relative mb-4 text-3xl font-bold text-black dark:text-white xl:text-hero whitespace-nowrap">
-              <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
+              <span className="relative inline-block before:absolute before:bottom-1 before:left-0 before:-z-1 before:h-3 before:w-full  before:md:bottom-1 before:sm:bottom-1 before:lg:bottom-1 before:xl:bottom-2.5 before:2xl:bottom-2.5 before:bg-titlebg dark:before:bg-titlebgdark">
                 {title}
               </span>
             </h2>
