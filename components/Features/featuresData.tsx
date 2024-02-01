@@ -1,13 +1,8 @@
 import { Feature } from "@/types/feature";
+import calculateAge from "../Common/FunctCalculateDate";
 
-function age(date: { getFullYear: () => number; getMonth: () => number; getDate: () => number }) {
-  const today = new Date();
-  const age =
-    today.getFullYear() -
-    date.getFullYear() -
-    Number(today.getMonth() < date.getMonth() || (today.getMonth() === date.getMonth() && today.getDate() < date.getDate()));
-  return age;
-}
+
+const AcomStartDate = new Date (2015,1,1)
 
 const featuresData: Feature[] = [
   {
@@ -29,7 +24,7 @@ const featuresData: Feature[] = [
     icon: "/images/icon/icon-03.svg",
     title: "Experiência",
     description:
-      `Com uma experiência consolidada de mais de ${age(new Date(2015, 1, 1))} anos, tenho desempenhado funções no ramo da Tecnologia em renomadas empresas dos setores de saúde e manufatura, ambas contando com um quadro de mais de 130 colaboradores.`,
+      `Com uma experiência consolidada de mais de ${calculateAge(AcomStartDate)} anos, tenho desempenhado funções no ramo da Tecnologia em renomadas empresas dos setores de saúde e manufatura, ambas contando com um quadro de mais de 130 colaboradores.`,
   },
   {
     id: 4,
