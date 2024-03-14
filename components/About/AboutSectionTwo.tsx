@@ -72,9 +72,9 @@ export default function AboutSectionTwo({ moreDetails, sizeImage, aspectRatio }:
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_right relative mx-auto hidden md:block md:w-1/2"
             >
-              <div className=" p-8 relative flex items-center justify-center w-full h-full rounded-2xl bg-gradient-to-t from-transparent to-yellow-400/[0.2] dark:bg-gradient-to-t from-transparent dark:to-sky-950/50 ">
+              <div className=" p-4 relative flex items-center justify-center w-full h-full rounded-2xl bg-gradient-to-t from-transparent to-yellow-400/[0.2] dark:bg-gradient-to-t from-transparent dark:to-sky-950/50 ">
               {Array.isArray(moreDetails.image) ? (
                 //@ts-ignore
                 <SliderComponent images={moreDetails.image} width={sizeImage.width} height={sizeImage.height} />

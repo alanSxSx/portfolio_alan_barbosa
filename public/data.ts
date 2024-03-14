@@ -67,23 +67,23 @@ export const dataAbout = [
     },
 
     {
-      title: "Pomodoro App",
-      paragraph: "Pomodoro é um método de gerenciamento de tempo. A técnica consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos.",
-      arraySkills: ["ReactJS", "NextJS","TypeScript","CSS","JavaScript","HTML"],
-      image: "/images/pomodoro/pomodoro1.png",
-      link: "https://github.com/alanSxSx/pomodoro-app",
+      title: "App Authentication",
+      paragraph: "Esse aplicativo faz a autenticação do usuário usando uma chave JWT e redireciona para estrutura de páginas de acordo com o nível de acesso informado. Foi construído com NextJS e Typescript.",
+      arraySkills: ["ReactJS", "NextJS","TypeScript","JWT","NextAuth",],
+      image: "/images/nextAuth/authentic.png",
+      link: "https://github.com/alanSxSx/projnextauth",
       sizeImg: {
         width: 668,
         height: 457,
       },
       aspectRatio: "2/1",
       moreDetails: {
-        image: "/images/pomodoro/pomodoro2.png",
+        image: "/images/nextAuth/authenticAuth.png",
         titles: ["Objetivo", "Aprendizado", "Desafios do Projeto"],
         texts: [
-          "Desenvolver minhas habilidades em Typescript, aproveitando o gerenciador de projetos do nextJS. ",
-          "Consegui entender melhor como funciona o Typescript além de usar o Javascript puro em algumas ocasiões.",
-          "Os maiores desafios do projeto foram transformar as horas de acordo com a necessidade, as vezes precisa apresentar no formato MM:SS outra hora HH:MM:SS. Adicionar o áudio também foi um desafio. ",
+          "Desenvolver minhas habilidades em Typescript, aproveitando o gerenciador de projetos do nextJS.",
+          "Com o NextAuth, aprendi a realizar de forma simples a authenticação via API própria e conhecer a authenticação via outros providers como GitHub.",
+          "Os maiores desafios do projeto foram armazenar os dados do usuário de forma segura, e direcionar de acordo com seu nível de acesso.",
         ],
       },
     },
