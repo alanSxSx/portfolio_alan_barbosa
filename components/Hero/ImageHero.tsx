@@ -9,14 +9,14 @@ export default function ImageHero() {
                 <div className="container-inner">
                     <div className="circle-cover bg-primary opacity-60" />
                     <Image
-                        src="/images/hero/profile-2.png"
+                        src="/images/hero/profile02.png"
                         alt="Alan Barbosa"
                         width={500}
                         height={500}
                         quality={100}
                         priority={true}
                         placeholder="blur"
-                        blurDataURL="/images/hero/profile-2.png"
+                        blurDataURL="/images/hero/profile02.png"
                         className="img w-full rounded-full object-cover md:h-auto md:rounded-none md:rounded-l-lg"
                     />
                 </div>
