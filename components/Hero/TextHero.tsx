@@ -22,7 +22,7 @@ export default function TextHero() {
                             <br />
                         </p>
                         <p className="text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
-                            Na área do Desenvolvimento Web, atuo há aproximadamente 1 ano com projetos pessoais e projetos visando a melhoria e automação de alguns processos das empresas onde atuo.
+                            Na área do Desenvolvimento Web, atuo há aproximadamente {age(new Date(2021, 1, 1))} anos com projetos pessoais e projetos visando a melhoria e automação de alguns processos das empresas onde atuo.
                         </p>
                         <p className="text-base !leading-relaxed text-body-color dark:text-dark-mode sm:text-lg md:text-xl">
                             As tecnologias que são destaque nos meus projetos são: React JS, Next JS com uso de Javascript e Typescript, implementação de biblioteca de componentes UI Primereact. Implementação de backend em nuvem na Digital Ocean.
