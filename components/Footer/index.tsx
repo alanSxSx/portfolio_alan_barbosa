@@ -40,7 +40,7 @@ const Footer = () => {
 								</p>
 							</div>
 
-							<div className='flex flex-col items-center justify-center w-full'>
+							<div className='hidden lg:flex flex-col items-center justify-center w-full md:hidden'>
 								<p className="text-3xl font-bold text-black dark:text-white">Alan Barbosa</p>
                 <p className="text-xl font-medium text-body-color">Desenvolvedor Front End</p>
 							</div>
