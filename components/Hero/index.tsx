@@ -20,9 +20,9 @@ const Hero = () => {
                 🔥 Portfólio - Alan Rodrigues Barbosa
               </h4>
               <h1 className="mb-5 text-center  text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Desenvolvedor {"   "}
+							Quality Assurance {"   "}
                 <span className="relative text-center inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  Front-End
+								Engineer
                 </span>
               </h1>
             </div>
@@ -30,7 +30,7 @@ const Hero = () => {
 
             <div className="animate_right flex flex-col items-center content-center">
               <ImageHero/>
-              <TextHero/>                               
+              <TextHero/>
             </div>
           </div>
       </section>

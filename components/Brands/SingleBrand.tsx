@@ -8,7 +8,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
   const { image, href, name, imageLight, id } = brand;
 
   return (
-    <div className="flex flex-col justify-items-center items-center gap-2">
+    <div className="flex flex-col justify-items-center items-center gap-1">
       <motion.a
         variants={{
           hidden: {
@@ -36,7 +36,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           fill
         />
         <Image
-          className="hidden opacity-50 transition-all duration-300  hover:opacity-100 dark:block"
+          className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
           src={imageLight}
           alt={name}
           fill

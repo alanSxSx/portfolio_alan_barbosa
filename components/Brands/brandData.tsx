@@ -17,10 +17,10 @@ const brandData: Brand[] = [
   },
   {
     id: 0.4,
-    name: "NextJS",
-    href: "https://nextjs.org/",
-    image: "/images/brand/next.svg",
-    imageLight: "/images/brand/next-dark.svg",
+    name: "Cypress",
+    href: "https://www.cypress.io/",
+    image: "/images/brand/cypress-dark.svg",
+    imageLight: "/images/brand/cypress.svg",
   },
   {
     id: 0.5,
@@ -31,10 +31,10 @@ const brandData: Brand[] = [
   },
   {
     id: 0.6,
-    name: "React",
-    href: "https://react.dev/",
-    image: "/images/brand/react.svg",
-    imageLight: "/images/brand/react-dark.svg",
+    name: "Jest",
+    href: "https://jestjs.io/",
+    image: "/images/brand/jest.svg",
+    imageLight: "/images/brand/jest-dark.svg",
   },
   {
     id: 0.7,
