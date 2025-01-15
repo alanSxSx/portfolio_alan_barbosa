@@ -43,30 +43,30 @@ const Footer = () => {
 
 							<div className='hidden lg:flex flex-col items-center justify-center w-full md:hidden'>
 								<p className="text-3xl font-bold text-black dark:text-white">Alan Barbosa</p>
-                <p className="text-xl font-medium text-body-color">Desenvolvedor Front End</p>
+                <p className="text-xl font-medium text-body-color">Quality Assurance Engineer</p>
 							</div>
 
 
               <div className="py-7 flex flex-col items-center text-center w-full">
                 <div className="flex justify-center">
                   {/* <a href="https://www.linkedin.com/in/alan-barbosa-4b6987277/" aria-label="social-link" className="mr-6"> */}
-                  <a href="https://github.com/alanSxSx" aria-label="social-link" className="mr-6">
+                  <a href="https://github.com/alanSxSx" aria-label="social-link" target="_blank" className="mr-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#4a6cf7" viewBox="0 0 24 24">
                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z" />
                     </svg>
                   </a>
                   {/* <a href="https://www.linkedin.com/in/alan-barbosa-4b6987277/" aria-label="social-link" className="mr-6"></a> */}
-                  <a href="https://www.linkedin.com/in/alan-barbosa-4b6987277/" aria-label="social-link" className="mr-6">
+                  <a href="https://www.linkedin.com/in/alan-barbosa-4b6987277/" aria-label="social-link" target="_blank" className="mr-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#4a6cf7" viewBox="0 0 24 24">
                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                     </svg>
                   </a>
 
-                  <a href="https://docs.google.com/document/d/1-qvCeh3H5G5Xi-Ju47w6gC1RyQ-v14qo/edit?usp=drive_link&ouid=116033998789940486808&rtpof=true&sd=true" aria-label="social-link" className="mr-6 dark:hidden">
+                  <a href="https://docs.google.com/document/d/1ynMxRR3JAKB6W03ObEpNQAaXyJ1ZQv75/edit?usp=drive_link&ouid=116033998789940486808&rtpof=true&sd=true" target="_blank" aria-label="social-link" className="mr-6 dark:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#FFFFFF" viewBox="-39.25 -39.25 471.03 471.03" xmlSpace="preserve" stroke="none"><g id="SVGRepo_bgCarrier" strokeWidth="0"><rect x="-39.25" y="-39.25" width="471.03" height="471.03" rx="94.20599999999999" fill="#4a6cf7" strokeWidth="0"></rect></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M292.396,324.849H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582 c6.012,0,10.925-4.849,10.925-10.925C303.321,329.697,298.473,324.849,292.396,324.849z"></path> </g> </g> <g> <g> <path d="M292.396,277.01H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582 c6.012,0,10.925-4.849,10.925-10.925C303.321,281.859,298.473,277.01,292.396,277.01z"></path> </g> </g> <g> <g> <path d="M196.137,45.834c-25.859,0-46.998,21.075-46.998,46.998c0,25.859,21.139,46.933,46.998,46.933 s46.998-21.075,46.998-46.998S221.996,45.834,196.137,45.834z M196.137,117.851c-13.77,0-25.083-11.313-25.083-25.083 c0-13.77,11.248-25.083,25.083-25.083s25.083,11.313,25.083,25.083C221.22,106.537,209.907,117.851,196.137,117.851z"></path> </g> </g> <g> <g> <path d="M258.521,163.362c-39.887-15.515-84.752-15.515-124.638,0c-13.059,5.107-21.786,18.101-21.786,32.388v44.347 c-0.065,6.012,4.849,10.925,10.861,10.925h146.424c6.012,0,10.925-4.848,10.925-10.925V195.75 C280.307,181.463,271.58,168.469,258.521,163.362z M258.521,229.236H133.883v-33.422c0-5.301,3.168-10.214,7.887-12.024 c34.844-13.511,74.02-13.511,108.865,0c4.719,1.875,7.887,6.659,7.887,12.024V229.236z"></path> </g> </g> <g> <g> <path d="M313.083,0H131.491c-8.404,0-16.291,3.232-22.238,9.18L57.018,61.414c-5.947,5.948-9.18,13.834-9.18,22.238v277.333 c0,17.39,14.158,31.547,31.547,31.547h233.762c17.39,0,31.547-14.158,31.547-31.547V31.547C344.501,14.158,330.343,0,313.083,0z M112.032,37.236v27.022H85.01L112.032,37.236z M322.715,116.816h-40.598c-6.012,0-10.925,4.849-10.925,10.925 c0,6.012,4.848,10.925,10.925,10.925h40.598v19.394h-14.869c-6.012,0-10.925,4.848-10.925,10.925 c0,6.012,4.849,10.925,10.925,10.925h14.869v181.139c0,5.366-4.331,9.697-9.632,9.697H79.192c-5.301,0-9.632-4.331-9.632-9.632 V86.044h53.398c6.012,0,10.925-4.848,10.925-10.925V21.721h179.2c5.301,0,9.632,4.331,9.632,9.632V116.816z"></path> </g> </g> </g></svg>
                   </a>
 
-                  <a href="https://wa.me/5537998057781" aria-label="social-link" className="dark:hidden">
+                  <a href="https://wa.me/5537998057781" aria-label="social-link" target="_blank" className="dark:hidden">
                     <svg viewBox="-3.2 -3.2 38.40 38.40" fill="none" width="42" height="42" xmlns="http://www.w3.org/2000/svg">
                       <g id="SVGRepo_bgCarrier" strokeWidth="0"><rect x="-3.2" y="-3.2" width="38.40" height="38.40" rx="7.68" fill="#4a6cf7" strokeWidth="0">
                       </rect></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round"></g><g id="SVGRepo_iconCarrier">
