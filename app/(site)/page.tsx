@@ -7,6 +7,7 @@ import React from "react";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import SectionHeader from "@/components/Common/SectionHeader";
+import Certifications from '@/components/Certifications';
 
 export const metadata: Metadata = {
   title: "Portfólio - Alan Barbosa",
@@ -19,6 +20,7 @@ export default function Home() {
     <main>
       <Hero />
       <Brands />
+			{/* <Certifications /> */}
       <Feature />
       <SectionHeader
         headerInfo={{
