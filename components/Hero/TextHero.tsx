@@ -32,8 +32,8 @@ export default function TextHero() {
               <br />
             </p>
             <p className="text-body-color dark:text-dark-mode text-base !leading-relaxed sm:text-lg md:text-xl">
-              Na área de Qualidade, atuo há cerca de {age(new Date(2021, 1, 1))}{" "}
-              anos, desenvolvendo projetos pessoais e empresariais voltados para
+              Na área de Qualidade, atuo há cerca de {age(new Date(2024, 1, 1))}{" "}
+              {age(new Date(2024, 1, 1)) === 1 ? "ano" : "anos"}, desenvolvendo projetos pessoais e empresariais voltados para
               a melhoria contínua e automação de processos nas empresas em que
               trabalhei.
             </p>
