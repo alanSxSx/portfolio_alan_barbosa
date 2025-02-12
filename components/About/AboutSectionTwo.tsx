@@ -39,8 +39,8 @@ export default function AboutSectionTwo({ moreDetails, sizeImage, aspectRatio }:
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-            
-              
+
+
               {moreDetails?.titles?.map((item, index) => {
                   return (
                     <div className="mb-9" key={index}>
@@ -53,8 +53,7 @@ export default function AboutSectionTwo({ moreDetails, sizeImage, aspectRatio }:
                     </div>
                   );
                 })}
-             
-        
+
             </motion.div>
             <motion.div
               variants={{
@@ -87,8 +86,7 @@ export default function AboutSectionTwo({ moreDetails, sizeImage, aspectRatio }:
                   alt="about-image"
                   width={sizeImage.width}
                   height={sizeImage.height}
-                  className="max-w-full lg:mr-0 rounded-2xl"              
-                 
+                  className="max-w-full lg:mr-0 rounded-2xl"
                 />
               )}
             </div>

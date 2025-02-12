@@ -1,136 +1,93 @@
 export const dataAbout = [
     {
-      title: "Site Fulig",
+      title: "Testes de Formulários",
       paragraph:
-        "Desenvolvimento de um novo site para empresa, FULIG - Fundição de Ligas LTDA ",
-      arraySkills: ["React JS", "Next JS", "Netlify Forms", "Prime React", "CSS Modules"],
-      image: "/images/fulig/fulig1.jpeg",
-      link: "https://fulig.netlify.app/",
+        "Testes utilizando Cypress em um front end",
+      arraySkills: ["Next JS", "Cypress", "Javascript", "Teste E2E"],
+      image: "/images/cypress.gif",
+      link: "https://github.com/alanSxSx/testedeinterface",
       sizeImg: {
         width: 668,
         height: 401,
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "/images/fulig/fulig2.jpeg",
-        titles: ["Problema", "Atuação", "Benefícios"],
+        image: "/images/testes/cypress.png",
+        titles: ["Problema", "Execução", "Resultado"],
         texts: [
-          "Empresa estava sem um site que pudesse conter a história e a gradeza da FULIG.",
-          "Foi feito o desenvolvimento de um protótipo e apresentado para Diretoria, que logo elogiou muito a iniciativa.",
-          "Com a implementação do site, a FULIG ganhou um local para eternizar sua história e conseguiu um espaço para apresentar seus produtos e serviços.",
+          "O candidato deve escrever um teste automatizado para um formulário de cadastro de usuário, validando os seguintes requisitos: O formulário não deve permitir envio sem preencher todos os campos. A senha deve ter mínimo 8 caracteres, 1 letra maiúscula e 1 número. O e-mail digitado no campo Confirmação de E-mail deve ser igual ao e-mail principal.",
+          "Automatizar o fluxo de testes do formulário de cadastro utilizando Cypress. Simular diferentes cenários, como tentativa de envio com campos vazios, inserção de senha inválida e divergência entre e-mails. Validar as mensagens de erro exibidas e garantir que as regras de negócio estão sendo aplicadas corretamente.",
+          "Todos os testes foram executados com sucesso, garantindo que as regras de validação do formulário de cadastro estão funcionando corretamente. Nenhum bug foi identificado durante os testes.",
         ],
       },
     },
 
     {
-      title: "Registro de Almoço",
-      paragraph: "Aplicação utilizada pra todos os funcionários realizarem o registro de almoço diário",
-      arraySkills: ["ReactJS", "Axios","Prime React","Token JWT","Secure Local Storage","Clound Computing"],
-      image: "/images/registro_almoco/reg1.jpeg",
-      link: "https://registrodealmoco.netlify.app/",
+      title: "Testes de API",
+      paragraph: "Aplicação utilizada pra teste de API com Jest + Supertest",
+      arraySkills: ["NodeJS", "Jest","Supertest","Typescript", "APITest"],
+      image: "/images/jest.gif",
+      link: "https://github.com/alanSxSx/testeDeAPI",
       sizeImg: {
         width: 668,
         height: 457,
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "/images/registro_almoco/reg2.jpeg",
-        titles: ["Problema", "Atuação", "Benefícios"],
+        image: "/images/testes/jest.png",
+        titles: ["Problema", "Execução", "Resultado"],
         texts: [
-          "O registro de almoço éra feito em uma lista de papel totalmente de forma manual, gerando muito trabalho.",
-          "Fiz toda a aplicação desde o front-end até o backend. A implementação do backend foi feita em Clound na Digital Ocean.",
-          "Reduziu drasticamente o tempo de conferência dos almoços. A empresa também terá os dados referentes ao registro de almoço para os funcionários.",
+        "Garantir a integridade e confiabilidade das respostas da API.",
+        "Desenvolvimento de testes automatizados utilizando Jest e Supertest, validando rotas, respostas e integração com banco de dados.",
+        "Os testes automatizados permitiram detectar falhas rapidamente e assegurar a qualidade da API antes da implantação.",
         ],
       },
     },
 
 		{
-      title: "API Backend",
-      paragraph: "Parte de Backend do projeto de registro de almoço.",
-      arraySkills: ["JavaScript", "NodeJS","Autenticação de rotas com JWT","Sequelize","Conexão com banco Mysql"],
-      image: "/images/fuligbackend/backend1.png",
-      link: "https://github.com/alanSxSx/registro_de_almoco_backend",
+      title: "Testes de Carga",
+      paragraph: "Aplicação utilizada para teste de carga em uma API utilizando o K6.",
+      arraySkills: ["K6", "Teste de Carga","APITests"],
+      image: "/images/k6.gif",
+      link: "https://github.com/alanSxSx/testeDeAPI",
       sizeImg: {
         width: 668,
         height: 457,
       },
       aspectRatio: "5/3",
       moreDetails: {
-        image: "/images/fuligbackend/backend2.png",
-        titles: ["Problema", "Atuação", "Benefícios"],
+        image: "/images/testes/k6.png",
+        titles: ["Problema", "Execução", "Resultado"],
         texts: [
-          "Com o uso do papel, as informações não éram armazenadas de maneira eficiente.",
-          "Desenvolvimento da parte backend com sucesso, sendo implementado as rotas e a conexão com Banco de Dados.",
-          "Armazena e altera as informações de forma íntegra, sem muito esforço da administração do sistema.",
+					"Avaliar a performance e escalabilidade da API sob alta demanda.",
+					"Execução de testes de carga utilizando K6 para simular múltiplos usuários simultâneos e medir o tempo de resposta da API.",
+					"Os testes ajudaram a identificar gargalos de desempenho, permitindo otimizações antes do lançamento para garantir uma API robusta.",
         ],
       },
     },
 
     {
-      title: "App Authentication",
-      paragraph: "Esse aplicativo faz a autenticação do usuário usando uma chave JWT e redireciona para estrutura de páginas de acordo com o nível de acesso informado. Foi construído com NextJS e Typescript.",
-      arraySkills: ["ReactJS", "NextJS","TypeScript","JWT","NextAuth",],
-      image: "/images/nextAuth/authentic.png",
-      link: "https://github.com/alanSxSx/projnextauth",
+      title: "Testes Unitários",
+      paragraph: "Automação de testes unitários para validar funções e componentes do front-end utilizando Jest e React Testing Library.",
+      arraySkills: ["ReactJS", "NextJS","TypeScript","Jest","React Testing Library",],
+      image: "/images/unitario.gif",
+      link: "https://github.com/alanSxSx/pomodoro-app",
       sizeImg: {
         width: 668,
         height: 457,
       },
       aspectRatio: "2/1",
       moreDetails: {
-        image: "/images/nextAuth/authenticAuth.png",
-        titles: ["Objetivo", "Aprendizado", "Desafios do Projeto"],
+        image: "/images/testes/unitario.png",
+        titles: ["Problema", "Execução", "Resultado"],
         texts: [
-          "Desenvolver minhas habilidades em Typescript, aproveitando o gerenciador de projetos do nextJS.",
-          "Com o NextAuth, aprendi a realizar de forma simples a authenticação via API própria e conhecer a authenticação via outros providers como GitHub.",
-          "Os maiores desafios do projeto foram armazenar os dados do usuário de forma segura, e direcionar de acordo com seu nível de acesso.",
+					"Garantir que funções e componentes críticos do front-end se comportem conforme o esperado.",
+          "Desenvolvimento de testes unitários com Jest e React Testing Library para validar comportamento de componentes e funções isoladas.",
+          "Os testes unitários ajudaram a prevenir regressões e assegurar a confiabilidade do código antes da implantação.",
         ],
       },
     },
 
-		{
-      title: "To do List",
-      paragraph: "To do List, também conhecida como Lista de Tarefas, oferece uma maneira eficiente de priorizar e acompanhar as tarefas pendentes.",
-      arraySkills: ["ReactJS","CSS","JavaScript","HTML","CRUD em API","Axios","Redux"],
-      image: "/images/todoList/todo1.png",
-      link: "https://github.com/alanSxSx/to-do-list",
-      sizeImg: {
-        width: 668,
-        height: 457,
-      },
-      aspectRatio: "2/1",
-      moreDetails: {
-        image: "/images/todoList/todo2.png",
-        titles: ["Objetivo", "Aprendizado", "Desafios do Projeto"],
-        texts: [
-          "Trabalhar os conceitos de CRUD em API, utilizando também o estado global REDUX.",
-          "Aprendi a trabalhar melhor com API utilizando tanto o AXIOS quanto o FETCH. Também optei pelo estado global para desenvolver melhor o entendimento. ",
-          "Usar o redux principalmente em um projeto menor é mais trabalhoso do que o useState.",
-        ],
-      },
-    },
-
-		{
-      title: "Projeto Costs",
-      paragraph: "Costs foi um projeto desenvolvido em um tutorial com Matheus Battisti.",
-      arraySkills: ["ReactJS","CSS Modules","JavaScript","HTML","CRUD em API"],
-      image: "/images/costs/Costs1.png",
-      link: "https://github.com/alanSxSx/costs-full",
-      sizeImg: {
-        width: 668,
-        height: 457,
-      },
-      aspectRatio: "2/1",
-      moreDetails: {
-        image: "/images/costs/Costs2.png",
-        titles: ["Objetivo", "Aprendizado", "Desafios do Projeto"],
-        texts: [
-          "Criar um projeto React trabalhando com API demonstrando os conceitos de componentização, transferência de eventos via props.",
-          "Transferência de estado via props, React Router Dom, Css Modules, e principalmente organização do projeto.",
-          "Atualização para o react router dom 6 e superiror foi um ponto de desafio para o projeto.",
-        ],
-      },
-    },
 
   ];
 

@@ -67,8 +67,7 @@ export default function AboutSectionOne({ title, paragraph, arraySkills, image, 
                   alt="about-image"
                   width={sizeImg.width}
                   height={sizeImg.height}
-                  className=" lg:mr-0 rounded-2xl"              
-                 
+                  className=" lg:mr-0 rounded-2xl"
                 />
               )}
             </div>
