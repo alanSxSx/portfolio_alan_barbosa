@@ -10,8 +10,8 @@ import SectionHeader from "@/components/Common/SectionHeader";
 import Certifications from '@/components/Certifications';
 
 export const metadata: Metadata = {
-  title: "Portfólio - Alan Barbosa",
-  description: "Projeto desenvolvido por Alan Barbosa",
+	title: "Portfólio - Alan Barbosa",
+  description: "Portfólio de Alan Barbosa - QA engineer",
   // other metadata
 };
 
@@ -26,7 +26,7 @@ export default function Home() {
         headerInfo={{
           title: "PROJETOS EM DESTAQUE",
           subtitle: "Aplicações Desenvolvidas",
-          description: `Apresento os projetos de desenvolvimento pessoal, onde pude demonstrar meus conhecimentos técnicos em várias tecnologias como: ReactJS, NextJS, Typescript, Javascript, NodeJs entre outras.`,
+          description: `Apresento os projetos de desenvolvimento pessoal, onde pude aplicar meus conhecimentos técnicos em qualidade de software e automação de testes utilizando tecnologias como: Cypress, K6, Typescript, Javascript, NodeJs, Jest, ReactJs, NextJs entre outras.`,
         }}
       />
       {dataAbout.map((item, index) => (

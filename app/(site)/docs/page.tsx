@@ -2,8 +2,8 @@ import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Docs Page - Solid SaaS Boilerplate",
-  description: "This is Docs page for Solid Pro",
+  title: "Portfólio - Alan Barbosa",
+  description: "Portfólio de Alan Barbosa - QA engineer",
   // other metadata
 };
 
